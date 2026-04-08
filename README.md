@@ -22,4 +22,4 @@ AI-assisted detection pipeline that automates bulk labeling and surfaces priorit
 
 ## Status
 
-Early-stage prototype. Solo-built as the foundation for **BLNK** — a defense-tech startup focused on AI-powered ISR analysis tools.
+Early-stage prototype
