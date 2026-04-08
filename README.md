@@ -1,25 +1,18 @@
 # Sentinel — AI-Powered ISR Analysis Platform
 
-![Sentinel Dashboard](Base_UI_Mock_V1.png)
-![Sentinel Analytics](analytics_ui_mock_v1.png)
-Satellite imagery analysis tool for defense intelligence analysts. Automates object detection and labeling in ISR imagery, reducing manual analysis time by hours per session.
+**Live:** https://sentinel-isr-platform.vercel.app
 
-## Problem
+Interactive prototype of an AI-assisted satellite imagery analysis 
+platform for defense intelligence analysts.
 
-Intelligence analysts spend 6-8+ hours manually annotating objects in satellite imagery. Current workflows can't keep up with the volume of imagery being collected daily.
+## Stack
+Next.js · Tailwind CSS · shadcn/ui · Recharts
 
-## Solution
-
-AI-assisted detection pipeline that automates bulk labeling and surfaces priority targets, letting analysts review and correct instead of starting from scratch.
-
-## Features
-
-- Automated object detection and classification across satellite imagery
-- Priority-based image queue (High / Medium / Low)
-- Live operations map with geospatial tracking
-- Real-time progress metrics (images processed, time saved, accuracy rate)
-- Report generation and data export
+## Screens
+- **Dashboard** — pending image queue, live ops map, analyst metrics
+- **Image Library** — satellite image viewer with AI detection overlays
+- **Analytics** — processing volume, manual vs AI time comparison
+- **Settings** — detection thresholds, object types, export config
 
 ## Status
-
-Early-stage prototype
+Interactive UI prototype. Mocked data throughout — no active AI pipeline.
