@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"/Users/jacob/sentinel-isr-platform/sentinel-app/node_modules/next/dist/docs/01-app\"}",
+  "error": "EISDIR: illegal operation on a directory, read '/Users/jacob/sentinel-isr-platform/sentinel-app/node_modules/next/dist/docs/01-app'",
+  "timestamp": "2026-04-08T04:33:31.970Z",
+  "retry_count": 2
+}

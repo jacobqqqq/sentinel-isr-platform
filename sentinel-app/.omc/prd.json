@@ -1,0 +1,38 @@
+{
+  "title": "Dashboard Operations Map - Marker Redesign",
+  "stories": [
+    {
+      "id": "US-001",
+      "title": "Replace giant circle markers with small pulsing dots",
+      "acceptanceCriteria": [
+        "SVG marker inner circle radius is between 0.5-0.8 (maps to ~8-12px visually in the viewBox)",
+        "Pulsing outer circle radius stays proportionally small (max ~1.5-2)",
+        "Markers have a subtle glow effect via SVG filter (drop-shadow or feGaussianBlur)",
+        "No text labels are rendered directly on the SVG map by default"
+      ],
+      "passes": true
+    },
+    {
+      "id": "US-002",
+      "title": "Add hover tooltip for marker labels",
+      "acceptanceCriteria": [
+        "Each marker has a hover interaction that shows the label text",
+        "Label appears only on hover (not always visible)",
+        "Tooltip is styled consistently with the ops display theme (monospace, accent color)",
+        "Hover target area is usable (not too tiny to click)"
+      ],
+      "passes": true
+    },
+    {
+      "id": "US-003",
+      "title": "Visual polish - ops display feel",
+      "acceptanceCriteria": [
+        "Pulse animation is smooth and subtle (not jarring large radius changes)",
+        "Glow effect uses accent color (#00D9FF) with appropriate opacity",
+        "No other screens/pages are modified (only page.tsx and globals.css)",
+        "Build passes with no errors"
+      ],
+      "passes": true
+    }
+  ]
+}
